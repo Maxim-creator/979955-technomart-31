@@ -6,40 +6,34 @@
   </head>
   <body>
 <header>
-<div class="container">
+<section class="container">
     <a href="#">Техномарт</a>
     <form class="search">
-      <input class="icon_search main_search" type="search" placeholder="Поиск:">
+      <input class="icon-search main-search" type="search" placeholder="Поиск:">
     </form>
     <ul>
       <li><a href="#">Закладки: 0</a></li>
       <li><a href="#">Корзина: 10</a></li>
       <li><a href="#">Оформить заказ</a></li>
     </ul>
-</div>
-<div class="color-main">
-  <div class="fix"> 
-  <div>
-    <p>
-      Интернет магазин<br>
+</section>
+     <section>
+    <p>Интернет магазин<br>
       строительных инструментов<br>
       и инструментов для ремонта
     </p>
-  </div>
-  <div>
-    <div><p>+7 800 555-86-28</p></div>
-    <div><p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p></div>
-  </div>
-  <div class="accaunt">
+    <a href="tel:+78005558628">+7 800 555-86-28</a>
+    <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+    </section>
+    <section>
     <a href="#">Равшан Джамшутович</a>
     <a class="exit" href="#">Выход</a>
     <a href="#">Мои заказы</a>
     <a href="#">Личный кабинет</a>
-  </div>
-</div> 
+    </section>
 <nav class="main-navigation">
   <ul>
-      <li><a href="#">Главная</a></li>
+      <li><a href="index.html">Главная</a></li>
       <li><a href="#">Компания</a></li>
       <li><a href="#">Каталог</a></li>
       <li><a href="#">Новости</a></li>
@@ -48,12 +42,11 @@
       <li><a href="#">Контакты</a></li>
   </ul>
 </nav>
-</div>
 </header>
 <main>
     <h1>Каталог товаров</h1>
     <ul>
-        <li><a href="#">Домой</a></li>
+        <li><a href="index.html">Домой</a></li>
         <li><a href="#">Каталог</a></li>
         <li><a href="#">Инструмент</a></li>
         <li>Перфораторы</li>
@@ -61,7 +54,7 @@
     <h2>Перфораторы</h2>
     <section>
         <h2>Фильтр:</h2>
-        <form>
+        <form method="get" action="https://echo.htmlacademy.ru">
                 <fieldset>
                 <legend>Цена</legend>
                 <label class="min-price">
@@ -73,7 +66,7 @@
                 </label>
                 </fieldset>
                 <fieldset>
-                    <legend>ПРОИЗВОДИТЕЛИ:</legend>
+                    <legend>производители:</legend>
                     <ul>
                         <li>
                             <input type="checkbox" name="bosch" id="filter-bosch" checked="">
@@ -98,7 +91,7 @@
                     </ul>
                 </fieldset>
                 <fieldset>
-                    <legend>ПИТАНИЕ:</legend>
+                    <legend>питание:</legend>
                     <ul>
                         <li>
                             <input type="radio" id="filter-rechargeable" name="supply" value="rechargeable" checked="">
@@ -229,13 +222,13 @@
     <div class="contact-left">
       <a href="#">Техномарт</a>
       <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П<br>
-        +7 800 555-86-28</p>
+        <a href="tel:+78005558628">+7 800 555-86-28</a></p>
     </div>
     <div class="menu-right">
       <div class="top-navigation">
         <a href="#">Компания</a>
         <a href="#">Новости</a>
-        <a href="#">Каталог</a>
+        <a href="catalog.html">Каталог</a>
         <a href="#">Доставка</a>
         <a href="#">Контакты</a>
       </div>
@@ -262,7 +255,7 @@
         <p>Обратная связь: 
           <a href="#">mail@htmlacademy.ru</a></p>
         <p>Разработано — 
-          <a href="#">htmlacademy.ru</a></p>
+          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
         </section>
     </div>
 </footer>
